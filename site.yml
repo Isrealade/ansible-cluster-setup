@@ -4,15 +4,21 @@
   become: yes
   roles:
     - kubernetes_master
+  tags:
+    - master
 
 - name: Configure Kubernetes Network
   hosts: master_nodes
   become: yes
   roles:
     - kubernetes_network
+  tags:
+    - master
 
 - name: Configure Kubernetes Worker
   hosts: worker_nodes
   become: yes
   roles:
     - kubernetes_worker
+  tags:
+    - worker
