@@ -26,7 +26,7 @@ This project automates the setup of a Kubernetes cluster using Ansible. The setu
 1. Clone this repository to your local machine:
    ```bash
    git clone <repository-url>
-   cd ans-cluster
+   cd ansible-cluster-setup
    ```
 
 2. Navigate to the scripts directory:
@@ -65,7 +65,7 @@ This project automates the setup of a Kubernetes cluster using Ansible. The setu
 4. Clone the repository on the control node:
    ```bash
    git clone <repository-url>
-   cd ans-cluster
+   cd ansible-cluster-setup
    ```
 
 5. Modify the `hosts` file:
