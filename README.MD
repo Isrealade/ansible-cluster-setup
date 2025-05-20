@@ -64,8 +64,8 @@ yq --version
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone <repository-url>
-   cd ans-cluster
+   git clone https://github.com/Isrealade/ansible-cluster-setup.git
+   cd ansible-cluster-setup
    ```
 
 2. Navigate to the scripts directory:
